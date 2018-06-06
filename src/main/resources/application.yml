@@ -1,0 +1,16 @@
+server:
+  port: 81
+  context-path: /
+  
+
+spring:
+   datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://60.214.101.67:3336/db_jxc2
+      username: root
+      password: Bigdata@2018
+   jpa:
+     hibernate.ddl-auto: update
+     show-sql: true
+   thymeleaf:
+    cache: false
